@@ -1,0 +1,32 @@
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+  }
+  
+  input[type="text"], input[type="email"] {
+    width: 150px;  
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+  }
+  
+  button:hover {
+    background: #3e8e41;
+  }

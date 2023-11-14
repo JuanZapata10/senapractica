@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 27px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.699);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .container h2 {
+    margin: 0;
+    padding: 10px;
+    color: greenyellow;
+  }
+  
+  .form-group {
+    margin: 20px 0;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .redirect-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .redirect-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Opcional: Estilos para centrar el botón horizontalmente */
+  .container {
+    text-align: center;
+  }
+  
